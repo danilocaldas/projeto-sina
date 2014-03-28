@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd">
+<hibernate-reverse-engineering>
+  <schema-selection match-catalog="sina_der"/>
+  <table-filter match-name="producao_medica"/>
+  <table-filter match-name="funcionario"/>
+  <table-filter match-name="nao_pactuado"/>
+  <table-filter match-name="producao_digitador"/>
+  <table-filter match-name="usuario"/>
+  <table-filter match-name="arquivo"/>
+  <table-filter match-name="boletim_saida"/>
+  <table-filter match-name="boletim_entrada"/>
+  <table-filter match-name="prestador"/>
+  <table-filter match-name="procedimento"/>
+  <table-filter match-name="paciente"/>
+</hibernate-reverse-engineering>
