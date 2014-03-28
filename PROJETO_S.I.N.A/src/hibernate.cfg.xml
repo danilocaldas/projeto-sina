@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/sina_der?zeroDateTimeBehavior=convertToNull</property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.connection.password">root</property>
+    <property name="hibernate.show_sql">true</property>
+    <property name="hibernate.format_sql">true</property>
+    <property name="hibernate.hbm2ddl.auto">update</property>
+    <mapping resource="com/sina/model/entities/BoletimSaida.hbm.xml"/>
+    <mapping resource="com/sina/model/entities/Usuario.hbm.xml"/>
+    <mapping resource="com/sina/model/entities/Paciente.hbm.xml"/>
+    <mapping resource="com/sina/model/entities/Arquivo.hbm.xml"/>
+    <mapping resource="com/sina/model/entities/BoletimEntrada.hbm.xml"/>
+    <mapping resource="com/sina/model/entities/ProducaoDigitador.hbm.xml"/>
+    <mapping resource="com/sina/model/entities/NaoPactuado.hbm.xml"/>
+    <mapping resource="com/sina/model/entities/Prestador.hbm.xml"/>
+    <mapping resource="com/sina/model/entities/ProducaoMedica.hbm.xml"/>
+    <mapping resource="com/sina/model/entities/Funcionario.hbm.xml"/>
+    <mapping resource="com/sina/model/entities/Procedimento.hbm.xml"/>
+  </session-factory>
+</hibernate-configuration>
